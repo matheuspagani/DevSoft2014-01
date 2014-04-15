@@ -1,0 +1,21 @@
+Matheus Eid Pagani
+
+Classe: Produto
+Atributos: Preço, Tamanho, Localização, Frete, Peso, Destino, Código.
+Métodos: Rastreia, Dados
+
+Classe: Cliente
+Atributos: Endereço, Produtos
+Métodos: ProdutosAReceber, NovoItem, EntregaItem, CancelaItem.
+
+Classe: Veículo
+Atributos: Destinos, Gasolina 
+Métodos: DestinoPercorrido, RecebeItem, Rastreia.
+
+Classe: Estoque
+Atributos: Produtos
+Métodos: SaiProduto, EntraProduto.
+
+Classe: Frota
+Atributos: Veículos
+Métodos: EntraVeículo, SaiVeículo
